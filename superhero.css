@@ -1,0 +1,19 @@
+h1 {
+    color:orange;
+    border-style: double;
+    border-color: orange;
+    padding: 20px; 
+    
+} 
+body{
+    background-color:gray;
+}
+#no1 {
+    color:whitesmoke;
+}    
+#no2 {
+    color: darkred
+}
+.fancybullets {
+    list-style: square; 
+}

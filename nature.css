@@ -1,0 +1,38 @@
+:root{
+    --mbgc: tan;  
+    --main-textColor: purple;
+}
+
+h1{
+    background-color: var(--mbgc);
+    color: var(--main-textColor, purple);
+}
+
+h2{
+    background-color: tan;
+    color: purple;
+}
+
+li{    background-color:purple;
+    border-style:double;
+    padding: 10px;
+    border-width: 5px, 12px, 5px, 12px; 
+    display: inline-block;
+    margin: 5px, 5px;
+
+}
+
+p{
+color:tan;
+background-color: purple;
+}
+
+
+p:nth-child(odd){
+    background:purple;
+}
+
+
+p:nth-child(even){
+    background:tan;
+}

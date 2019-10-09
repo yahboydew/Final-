@@ -1,0 +1,40 @@
+/*Give all p elements a font-size of 1.2em
+Give the class "weather-heading" a font-family of Helvetica.
+Give the class "weather-forecast" a background-color of "#c7d5ed"
+Give the class "forecast" a color of "#270538"*/
+
+{
+p{font-size: 1.2em;
+}
+.weather-heading {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weather-forecast {
+    background-color: #c7d5ed;  
+}
+.forecast {
+    color:red;
+}
+.forecast:nth-child(even){
+    background: orange;
+}
+.forecast:nth-child(odd){
+    background: lightgreen;
+}
+
+body {
+    color:purple !important;
+}
+ a:visited {
+     background-color: lightblue;
+     color: honeydew
+ }
+ a:hover {
+     background-color: lightblue;
+     color: honeydew;
+ }
+ a:active {
+     background-color: hotpink;
+     color: honeydew
+ }
+ 

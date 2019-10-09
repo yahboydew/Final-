@@ -1,0 +1,39 @@
+h1 {
+    color: lightblue;
+    
+    
+    
+}
+body {
+    background-color:salmon;
+
+}
+#no1 {
+    color: lightblue;
+}
+li {
+    background-color: darkblue;
+    border-style:double;
+    padding: 10px;
+    border-width: 4px, 11px, 4px, 11px; 
+    display: inline-block;
+    margin: 5px, 5px;
+}
+.forecast {
+    width: 10vh;
+    height: 10vh;
+    padding: 2em;
+    background-color: lightblue;
+    margin: 2em;
+    border-style:ridge;
+    justify-content:center;
+   
+}
+.weather-heading {
+    color: lightblue; 
+    border-style: dotted
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}

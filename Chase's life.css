@@ -1,0 +1,78 @@
+h1 {
+    color:white;
+    border-style:dotted;
+    border-color: gold;
+    padding: 20px;
+}
+body {
+    background-color: green;
+
+}
+#no1 {
+    color: gold;
+}
+#no2 {
+    color: gold;
+}
+p{
+    font-size: 1.2em;
+}
+ul{
+    color: green;
+}
+ul:nth-child(odd){
+    background: green;
+}
+ul:nth-child(even){
+    background:gold;
+}
+a:visited {
+    background-color: gold;
+    color: green;
+}
+a:hover {
+    background-color: lightblue;
+    color: honeydew;
+}
+a:active {
+    background-color: hotpink;
+    color: honeydew;
+}
+#no3 {
+    color: gold;
+}
+li {
+    background-color:gold;
+    border-style:double;
+    padding: 10px;
+    border-width: 4px, 11px, 4px, 11px; 
+    display: inline-block;
+    margin: 5px, 5px;
+
+}
+.li {
+    color: green;
+    border-style:ridge;
+    width: 10vh;
+    height: 10vh;
+    padding: 2em;
+    margin: 2em;
+    border-style:ridge;
+    justify-content:center;
+}
+#no4 {
+    color: gold;
+}
+#no5 {
+    color: gold;
+}
+.p {
+    width: 10vh;
+    height: 10vh;
+    padding: 2em;
+    background-color: lightgreen;
+    margin: 2em;
+    border-style:ridge;
+    justify-content:center;
+}
+
